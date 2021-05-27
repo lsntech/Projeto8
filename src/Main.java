@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -41,11 +40,73 @@ public class Main {
         }
     }
 
+    static Integer[] rotLeft(Integer[] a, int d) {
+
+        Deque<Integer> deque = new ArrayDeque<Integer>(Arrays.asList(a));
+
+        for (int i = 0; i < d; i++) {
+            int temp = deque.pop();
+            deque.add(temp);
+        }
+
+        Integer[] n = deque.toArray(new Integer[deque.size()]);
+
+        return n;
+    }
+
+
 
     public static void main(String[] args) {
 
 
-        getPairValue();
+           Integer[] a = {1,2,3,4,5};
+           Integer[] b = {41, 73, 89, 7, 10, 1, 59, 58, 84, 77, 77, 97, 58, 1, 86, 58, 26, 10, 86, 51};
+           Integer[] iarra = new Integer[10];
+
+//           Deque<Integer> deque = new ArrayDeque<Integer>(Arrays.asList(b));
+//
+//           int rotations = 10;
+//
+//           for (int i = 0; i < rotations; i++) {
+//               int temp = deque.pop();
+//               deque.add(temp);
+//           }
+
+       // Integer[] n = deque.toArray(new Integer[deque.size()]);
+
+        System.out.println(b[0]);
+
+//        Integer[] arr = rotLeft(b, 10);
+//
+//        for (Integer n: arr) {
+//            System.out.printf("%d ", n);
+//        }
+
+
+
+
+//        for (int i = b.length-1; i > 0 ; i--) {
+//            System.out.println(b[i]);
+//        }
+
+//        int len = b.length-1;
+//
+//        for (int i = 0; i < len; i++) {
+//
+//            int temp = b[i];
+//            b[i] = b[len--]; // 41 | 51
+//            b[len-i] = temp;
+//            System.out.printf("b[i]: %d , b[len-i]: %d \n", b[i], b[len-i]);
+//
+//        }
+//
+//       System.out.println(Arrays.toString(b));
+
+
+
+
+
+    //    getPairValue();
 
 
 
