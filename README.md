@@ -9,7 +9,7 @@
   <img alt="NodeJS Version" src="https://img.shields.io/node/v/carbon.svg?style=for-the-badge">
 </p>
 <p align="center">
-  HackerRank solutions in Java programmed by <a alt="HackerRank Profile" href="https://www.hackerrank.com/gabrielgiordano" >Leandro Silva</a>
+  HackerRank solutions in Java programmed by <a alt="HackerRank Profile" href="https://www.hackerrank.com/lsntech" >Leandro Silva</a>
 </p>
 
 # 10 Days of Statistics
