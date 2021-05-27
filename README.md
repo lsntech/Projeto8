@@ -7,7 +7,7 @@
     <img alt="Languages" src="https://img.shields.io/badge/Languages-Java-brightgreen.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
-  HackerRank solutions in Java programmed by <a alt="HackerRank Profile" href="https://www.hackerrank.com/lsntech" >Leandro Silva</a>
+  HackerRank solutions in Java programmed by <a alt="HackerRank Profile" href="https://www.hackerrank.com/_LeNas_" >Leandro Silva</a>
 </p>
 
 # 10 Days of Statistics
