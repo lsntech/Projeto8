@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.hackerrank.com/gabrielgiordano">
+  <a href="https://www.hackerrank.com/_LeNas_">
     <img alt="HackerRank" src="https://raw.githubusercontent.com/gabrielgiordan/HackerRank/master/hacker-rank-logo.png">
   </a>
 </p>
